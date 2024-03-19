@@ -12,7 +12,7 @@ function Sidebar() {
 
     return (
         <>
-            <div className={`bg-[#0369a1] flex justify-between xl:w-[40%] lg:w-[60%] ${isTrue && 'xl:w-[0px] lg:w-[0px]'} duration-300 h-[100vh] absolute lg:relative`}>
+            <div className={`bg-[#0369a1] flex justify-between ${!isTrue && 'xl:w-[40%] lg:w-[60%]'} ${isTrue && 'xl:w-[0px] lg:w-[0px]'} duration-300 h-[100vh] absolute lg:relative`}>
                 <div className={`text-white w-full ${isTrue && 'hidden'} block`}>
                     <div className='p-5 flex items-center justify-between space-x-10 lg:space-x-0'>
                         <div className='space-x-5 lg:space-x-5 flex items-center'>
