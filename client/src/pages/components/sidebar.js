@@ -8,7 +8,7 @@ import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 
 function Sidebar() {
 
-    const [isTrue, setIsTrue] = useState(false);
+    const [isTrue, setIsTrue] = useState(true);
 
     return (
         <div className={`h-[100vh] flex absolute lg:relative ${!isTrue && 'xl:w-[40%] lg:w-[60%] md:w-[40%] sm:w-[50%] w-[70%]'} ${isTrue && 'xl:w-[0px] lg:w-[0px] md:w-[0px] w-[0px]'} duration-300`}>
